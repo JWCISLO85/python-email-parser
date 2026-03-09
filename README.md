@@ -1,6 +1,7 @@
 <h1>Phishing Email Detetctor </h1>
  This was a project that I did as part of my Security Scripting with Python course at Champlain College. I managed to create a script that took words from a suspicious word
- list that I created. These are words that are common in Phishing emails. I used Imap to connect to the gmail inbox and th date module to.
+ list that I created. These are words that are common in Phishing emails. I used Imap to connect to the Gmail inbox and the date module to set the time to retrieve the first 10 emails.
+ The email module was used to parse through these emails. In the future I want to be able to read the header and extract urls.
 
 <h1>What it does</h1>
 
